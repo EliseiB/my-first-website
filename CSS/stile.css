@@ -1,0 +1,158 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton';
+    color: white;
+    font-size: 16px;
+}
+
+ul li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner {
+    width: 1170px;
+    margin: 0 auto; /* позицоонирование по центру */
+}
+
+.header {
+    background: url('../img/header-bg.jpg') no-repeat center top / cover;
+}
+
+.header a {
+    color: white;
+}
+.menu {
+    display: flex;
+
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.menu li {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+}
+
+
+.text_header {
+    text-transform: uppercase;
+    margin-top: 216px;
+    padding-bottom: 322px;
+}
+
+.text_header p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+
+.text_header h1 {
+    font-size: 100px;
+    margin-bottom: 0px;
+    margin-top: -40px; 
+    letter-spacing: 0.2em;
+}
+
+.btn_book_the_tickets {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.title_about {
+    color: black;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.desc-left h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.desc-left p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    line-height: 26px; 
+    text-align: justify;
+}
+
+.desc-right {
+    margin-left: 90px;
+    color: black;
+}
+
+.desc-right h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.desc-right p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;  
+    text-align: justify;  
+}
+
+section {
+    padding-top: 113px;
+}
+
+.gallery {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_text {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+footer {
+    padding-top: 114px;
+    padding-bottom: 80px;
+}
