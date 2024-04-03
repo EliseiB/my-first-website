@@ -4,6 +4,7 @@ body {
     font-family: 'Anton';
     color: white;
     font-size: 16px;
+    cursor: url('../img/cursor-px.svg'), auto;
 }
 
 ul li {
@@ -18,7 +19,7 @@ ul li {
 }
 
 .header {
-    background: url('../img/header-bg.jpg') no-repeat center top / cover;
+    background: url('https://mcdn.wallpapersafari.com/medium/9/54/djG1sy.jpeg') no-repeat center top / cover;
 }
 
 .header a {
@@ -148,12 +149,6 @@ section {
     padding-top: 113px;
 }
 
-.gallery {
-    margin-top: 67px;
-    display: flex;
-    justify-content: space-between;
-}
-
 .footer_text {
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -161,7 +156,47 @@ section {
     font-size: 14px;
     color: #000;
 }
+
+
 footer {
     padding-top: 114px;
     padding-bottom: 80px;
 }
+
+.containerE {
+    width: 100%;  
+    display: flex;
+    padding: 0 20px;
+  }
+  
+  .slide{
+    border-radius: 20px;
+    height: 80vh;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+  }
+  
+  .slide h3{
+    position: absolute;
+    font-size: 24px;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+  }
+  
+  .slide.activate{
+    flex: 10;
+  }
+  
+  .slide.activate h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+  }
